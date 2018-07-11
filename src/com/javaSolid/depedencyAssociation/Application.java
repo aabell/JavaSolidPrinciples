@@ -7,7 +7,7 @@ public class Application {
 		car.speedUp();
 		car.stopEngine();
 		
-		//This is know as Dependency Association
+		//This is known as Dependency Association
 		Driver driver = new Driver();
 		driver.driveTheVehicle(car);
 	}
